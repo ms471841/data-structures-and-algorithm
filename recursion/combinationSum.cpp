@@ -8,7 +8,7 @@ void find(int index, int n, int target, vector<int> v, vector<int> &ds)
         if (target == 0)
         {
             for (auto i : ds)
-                cout << i;
+                cout << i<<" ";
             cout << endl;
         }
         return;
